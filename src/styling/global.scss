@@ -3,10 +3,12 @@
 
 * {
   background-color: variables.$white;
+  color: variables.$darkBlue;
 }
 
 body {
   margin: 0;
+  font-family: variables.$readexPro;
 }
 
 // global image styles
