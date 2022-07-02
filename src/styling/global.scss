@@ -1,0 +1,15 @@
+@use "landing";
+@use "variables";
+
+* {
+  background-color: variables.$white;
+}
+
+body {
+  margin: 0;
+}
+
+// global image styles
+.circleImage {
+  border-radius: 50%;
+}
