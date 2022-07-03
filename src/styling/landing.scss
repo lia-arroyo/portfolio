@@ -1,0 +1,62 @@
+@use "variables";
+
+// landing screen
+.landing {
+  padding: 5%;
+  width: 90vw;
+  height: 78vh;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  text-align: center;
+
+  // headshot image
+  img {
+    background-color: inherit;
+    margin: 5%;
+    padding: 0.5%;
+    border: 2px dashed variables.$lightBlue;
+  }
+
+  // text section
+  #welcomeText {
+    padding: 10% 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    // title "hello"
+    h1 {
+      margin: 0;
+      font-size: 2.2em;
+
+      #name {
+        color: variables.$pink;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 2px dashed variables.$lightBlue;
+
+        &:hover {
+          border-bottom-style: solid;
+        }
+      }
+
+    }
+
+    // subtitle
+    h2 {
+      font-size: 1.3em;
+      font-weight: 500;
+      line-height: 1.45em;
+      text-align: justify;
+      text-align-last: center;
+    }
+
+    .button {
+      width: 18%;
+    }
+  }
+}
