@@ -7,6 +7,8 @@ function Landing() {
 
       <div id="welcomeText">
         <h1>Hi! I'm <a id="name" href="#">Lia Arroyo</a>.</h1>
+        <h2>An impact-driven Software Engineering student with a Marketing mindset and experience coding in a team environment, looking to grow my dev skills!</h2>
+        <a className="button" href="https://www.linkedin.com/in/liayzabel/" target="_BLANK">Learn more</a>
       </div>
     </div>
   );
