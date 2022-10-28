@@ -11,7 +11,7 @@ function Landing() {
       <div id="welcomeText">
         <h1>Hi! I'm <motion.div id="name" whileHover={[jumpUpOnHover]}>Lia Arroyo</motion.div></h1>
         <h2>An impact-driven Software Engineering student with  experience coding in team environments, looking to grow my dev skills!</h2>
-        <a className="button" href="https://www.linkedin.com/in/liayzabel/" target="_BLANK">Learn more</a>
+        <motion.div className="button" whileHover={{scale:1.2}}><a href="https://www.linkedin.com/in/liayzabel/" target="_BLANK">Learn more</a></motion.div>
       </div>
     </div>
   );

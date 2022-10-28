@@ -66,6 +66,12 @@
 
     .button {
       width: 18%;
+      cursor: pointer;
+      
+      a {
+        text-decoration: none;
+        background-color: inherit;
+      }
     }
   }
 }
