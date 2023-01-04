@@ -34,12 +34,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    cursor: default;
 
     // title "hello"
     h1 {
       margin: 0;
       font-size: 2.2em;
-      display: inline;
 
       #name {
         background-color: transparent;
@@ -48,9 +48,6 @@
         text-transform: uppercase;
         border-bottom: 2px dashed variables.$lightBlue;
 
-        &:hover {
-          border-bottom-style: solid;
-        }
       }
 
     }
